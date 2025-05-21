@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cementerio Jardín</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left {
+      flex: 1;
+    }
+
+    .left img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Esto hace que la imagen se recorte para ocupar todo el espacio */
+    }
+
+    .right {
+      flex: 1;
+      padding: 60px;
+      background-color: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right h1 {
+      color: #002d62;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .right p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #002d62;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 4px;
+      width: fit-content;
+    }
+
+    .button:hover {
+      background-color: #004080;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="Imagenes/paloma.jpeg" alt="Imagen Cementerio Jardín">
+    </div>
+    <div class="right">
+      <h1>FUTURO <strong>CEMENTERIO JARDÍN</strong></h1>
+      <p>
+        El nuevo <strong>Futuro Cementerio Jardín</strong> tiene como principio e inspiración la unión de la tierra y el cielo, lo natural y lo celestial. Ubicado en la ciudad de Luque, es el mejor lugar para que tus seres queridos descansen en paz.
+      </p>
+      <button class="button">Más información</button>
+    </div>
+  </div>
+</body>
+</html>
